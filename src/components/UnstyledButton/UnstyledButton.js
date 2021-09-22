@@ -4,6 +4,9 @@ export default styled.button`
   display: ${(props) => props.display || 'block'};
   margin: 0;
   padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
   border: none;
   background: transparent;
   cursor: pointer;

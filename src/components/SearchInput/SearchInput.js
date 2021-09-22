@@ -17,6 +17,7 @@ const SearchInput = ({ label, ...delegated }) => {
 
 const Label = styled.label`
   position: relative;
+  padding-bottom: 12px;
 `;
 
 const Input = styled.input`
@@ -24,6 +25,7 @@ const Input = styled.input`
   background: transparent;
   border-bottom: 1px solid ${COLORS.gray[300]};
   padding-left: 24px;
+  padding-top: 12px;
   font-size: 0.875rem;
   color: ${COLORS.gray[100]};
   outline-offset: 4px;
