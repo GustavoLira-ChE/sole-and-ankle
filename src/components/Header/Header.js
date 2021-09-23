@@ -30,14 +30,14 @@ const MainHeader = styled.div`
   padding: 0 32px;
   border-bottom: 1px solid ${COLORS.gray[300]};
   display: flex;
-  gap: 199px;
 `;
 
 const Nav = styled.nav`
-  justify-self: center;
   display: flex;
   gap: 48px;
   align-items: center;
+  justify-content: center;
+  flex: 1;
 `;
 
 const NavLink = styled.a`

@@ -22,7 +22,7 @@ const Wrapper = styled.h1`
   padding-top: 21px;
   padding-bottom: 23px;
   padding-left: 32px;
-  justify-self: flex-start;
+  flex: 0 0 243;
 `;
 
 export default Logo;
